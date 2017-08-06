@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{620D9430-9EE9-4BCD-A825-444823176365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{1E80D24C-3E73-44A6-A253-4779DA3297D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{23743701-DBB8-4CC5-9B76-1567FBE973B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{B9B1ED52-821B-459E-9F4D-7C3D6E0068F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Domain", "5 - Domain", "{7062E187-1C1D-4883-A475-61CCE42FD338}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaConsultorio.Domain", "SistemaConsultorio.Domain.Core\SistemaConsultorio.Domain.csproj", "{D7CD4A1F-96A0-4753-8BD0-2644893659A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaConsultorio.Infra", "SistemaConsultorio.Infra\SistemaConsultorio.Infra.csproj", "{9A4EF5CE-CC93-4555-A385-27D62E9AFBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaConsultoria.Services", "SistemaConsultoria.Services\SistemaConsultoria.Services.csproj", "{EBC7D528-DDC6-4060-A579-BB064649161B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaControladoria.Application", "SistemaControladoria.Application\SistemaControladoria.Application.csproj", "{86D12F7E-99F3-40CF-8A4A-3F9D3D444BAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Web", "1.1 - Web", "{0A30E9AF-628E-4F01-A5C8-08BDAC2F0F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Injection", "1.2 - Injection", "{37D85683-A7F3-44B6-A61A-87F7A6C920CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7CD4A1F-96A0-4753-8BD0-2644893659A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CD4A1F-96A0-4753-8BD0-2644893659A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CD4A1F-96A0-4753-8BD0-2644893659A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CD4A1F-96A0-4753-8BD0-2644893659A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4EF5CE-CC93-4555-A385-27D62E9AFBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4EF5CE-CC93-4555-A385-27D62E9AFBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4EF5CE-CC93-4555-A385-27D62E9AFBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4EF5CE-CC93-4555-A385-27D62E9AFBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC7D528-DDC6-4060-A579-BB064649161B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC7D528-DDC6-4060-A579-BB064649161B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC7D528-DDC6-4060-A579-BB064649161B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC7D528-DDC6-4060-A579-BB064649161B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D12F7E-99F3-40CF-8A4A-3F9D3D444BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D12F7E-99F3-40CF-8A4A-3F9D3D444BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D12F7E-99F3-40CF-8A4A-3F9D3D444BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D12F7E-99F3-40CF-8A4A-3F9D3D444BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7CD4A1F-96A0-4753-8BD0-2644893659A6} = {7062E187-1C1D-4883-A475-61CCE42FD338}
+		{9A4EF5CE-CC93-4555-A385-27D62E9AFBEB} = {B9B1ED52-821B-459E-9F4D-7C3D6E0068F3}
+		{EBC7D528-DDC6-4060-A579-BB064649161B} = {23743701-DBB8-4CC5-9B76-1567FBE973B3}
+		{86D12F7E-99F3-40CF-8A4A-3F9D3D444BAD} = {1E80D24C-3E73-44A6-A253-4779DA3297D9}
+		{0A30E9AF-628E-4F01-A5C8-08BDAC2F0F17} = {620D9430-9EE9-4BCD-A825-444823176365}
+		{37D85683-A7F3-44B6-A61A-87F7A6C920CB} = {620D9430-9EE9-4BCD-A825-444823176365}
+	EndGlobalSection
+EndGlobal
